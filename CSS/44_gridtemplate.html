@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .container{
+        display:grid;
+        grid-template-areas: 
+        'navbar navbar navbar navbar'
+        'section section section aside'
+        'footer footer footer footer';
+        grid-gap:1rem;
+       } 
+       .item{
+        background-color: yellow;
+        border:2px solid black;
+        padding: 20px 10px;
+       }
+       #navbar{ grid-area: navbar;}
+       #section{grid-area: section;}
+       #aside{grid-area:aside;}
+       footer{grid-area:footer;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="navbar">Home About Cotact Us Services</div>
+        <div class="item" id="section">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit enim, voluptatem, qui maxime magnam repellat recusandae eius vero accusamus ipsam beatae doloremque, aut omnis quia quas quod placeat nisi consectetur tenetur neque ratione ad nulla aperiam. Fuga quos porro velit similique magni distinctio temporibus exercitationem, eius, tenetur doloribus quo reprehenderit iste, beatae fugit molestiae? Repellat magni in qui reprehenderit ad, molestiae laborum natus saepe assumenda fuga minus amet ducimus aut vel veritatis atque fugit numquam, autem sit eos explicabo incidunt quis totam nisi. Laudantium assumenda adipisci consequuntur nulla, reiciendis labore nihil minus. Veniam molestiae placeat iure totam quos pariatur amet, natus sint cupiditate eum molestias unde quis vitae incidunt nemo earum praesentium ipsum dignissimos itaque excepturi? Maiores distinctio dolores vel architecto beatae molestias vitae eaque, at corrupti, tenetur reprehenderit perferendis sit possimus, sed quaerat nobis saepe quos numquam facere excepturi cum? Repudiandae error dolorum, temporibus accusantium saepe placeat ipsum voluptatum, veritatis pariatur, molestias corporis cum eaque iste id natus qui excepturi minus. Cum voluptas aut nesciunt incidunt, ullam ducimus a? Nulla sed accusamus quisquam eaque, tempora numquam debitis. Quod illo dolore enim magni perferendis quo iure, provident asperiores praesentium. Vel aliquam quisquam dolorem aperiam iure expedita omnis error ducimus sapiente?</div>
+
+
+        <div class="item" id="aside">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo fugit architecto aspernatur cumque sunt itaque fugiat reiciendis nihil, soluta nostrum hic non, eveniet veniam fuga facilis tempore. Molestiae odio officiis autem fuga necessitatibus, quia velit nulla sapiente laborum, doloribus error suscipit expedita at quae eligendi est minima dolorum recusandae quidem optio quibusdam deleniti explicabo facere! Distinctio dolorum voluptate molestiae? Illum perspiciatis deleniti qui harum ea asperiores maxime veritatis natus tenetur incidunt illo nostrum itaque debitis corporis voluptate, adipisci possimus rerum quasi pariatur minus quas quos? Commodi qui magni dolorum porro sit, beatae numquam dolores adipisci aspernatur ad cum in iste aut! Fugiat, adipisci quaerat at ducimus repellendus quisquam delectus laborum quos! Ab aut modi ea. Dolore cum soluta adipisci sapiente possimus maxime veritatis saepe nisi quod harum repudiandae doloribus commodi sunt quam, corporis ex veniam quos velit rerum fugit. Necessitatibus eaque, numquam perferendis recusandae corrupti consequuntur autem voluptate. Nemo voluptates natus labore quis architecto dolorem expedita repellendus voluptas ipsam quidem vel atque optio in nulla inventore saepe, cupiditate commodi quos. Minus eius quam, autem sapiente adipisci cumque magni quibusdam ab possimus voluptate porro quasi ipsum. Eligendi modi mollitia aspernatur quos impedit. Vel adipisci dolores dolorum recusandae possimus et explicabo esse!</div>
+        <footer class="item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut iusto voluptate expedita neque doloremque provident?
+        </footer>
+    </div>
+</body>
+</html>

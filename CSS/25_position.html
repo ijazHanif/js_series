@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .container{
+            border:2px solid black;
+            width:100%;
+            height:1500px;
+        }
+        .box{
+           width:90px;
+           height:90px;
+           border:2px solid red;
+           background-color: antiquewhite;
+           /* margin:2px; */
+           display:inline-block;
+        }
+        /* relative: position the element relative to its normal position and will leave a gap at its normal position in(top,left,right,bottom) */
+        /* absolute: Position the element relative to the position of its parent element(top,left,right,bottom) */
+        #box3{
+           position:fixed; /*position the element relative to the browser window  (Default fixed)*/
+           top:20px;
+           right:16px;  
+         }
+         #box2{
+            position:sticky; /*The element with position: sticky and top: 0 played a*/ 
+         }         /*role between fixed & relative based on the position where it is placed.*/
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+    </div>
+</body>
+</html>

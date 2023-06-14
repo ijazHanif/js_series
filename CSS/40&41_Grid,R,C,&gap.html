@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+             display: grid;
+             /* grid-template-columns: 100px 300px 500px; */
+             /* grid-template-columns: auto 300px 500px; */
+                /* grid-template-columns: auto auto auto; */
+             /* grid-template-columns: 1fr 3fr 1fr; */
+                 /* grid-template-columns: repeat(5,auto); 5 columns that are equal in size */
+                grid-template-rows: 1fr 4fr 1fr;/* other after 3  rows become by default 1fr*/
+                grid-auto-rows:2fr; /* for other apply the grid auto rows */
+                grid-template-columns: 2fr 1fr 3fr;
+                grid-gap:2rem;
+          }
+        .item{
+            /* padding:20px; */
+            background-color: blue;
+            border:2px solid black;
+            /* margin:2px;  */
+             /* height:100px; */
+             /* width:100px; */
+          }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Box-1</div>
+        <div class="item">Box-2</div>
+        <div class="item">Box-3</div>
+        <div class="item">Box-4</div>
+        <div class="item">Box-5</div>
+        <div class="item">Box-6</div>
+        <div class="item">Box-7</div>
+        <div class="item">Box-8</div>
+        <div class="item">Box-9</div>
+        <div class="item">Box-10</div>
+    </div>
+</body>
+</html>
